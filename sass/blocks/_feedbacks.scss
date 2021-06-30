@@ -1,0 +1,26 @@
+.feedbacks{
+    height: 950px;
+    &__block{
+        display: flex;
+        margin-top: 70px;
+        img{
+            width: 169px;
+            height: 169px;
+            margin-right: 62px;
+        }
+    }
+    &__text{
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #0d0d0d;
+        h5{
+            font-size: 18px;
+            font-weight: 700;
+        }
+        span{
+            font-size: 14px;
+            color: #646464;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.adventage{
+    height: 470px;
+    background-color: #f6f6f6;
+    padding: 69px 0 78px 0;
+    &__blocks{
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__block{
+        width: 230px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #0d0d0d;
+        span{
+            font-size: 18px;
+            font-weight: 700;
+        }
+        img{
+            padding-bottom: 38px;
+            display: block;
+            margin: 0 auto;
+        }
+        a{
+            text-decoration: underline;
+            color: #ff0000;
+        }
+    }
+    &__heart{
+        animation: heartbeat 2s ease infinite;
+/*         animation-name: heartbeat;
+        animation-duration: 2s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite; */
+        &:hover{
+            animation-play-state: paused;
+        }
+    }
+}
